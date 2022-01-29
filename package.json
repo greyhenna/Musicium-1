@@ -25,7 +25,9 @@
   "name": "musicium_r8_dashboard",
   "description": "An advanced Discord Music Bot with a Dashboard, using distube.js.org having an interactive button & menu system and many features! Supported Features: Spotify • YouTube • SoundCloud • Live Stream • Audio Filtering • DJ Roles • Autoplay • Autoresume • Dashboard + Live Queue • ...",
   "version": "8.1.0",
-  "main": "index.js",
+  "main": "index.js","engines": {
+    "node": "16.x"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "node index.js",
