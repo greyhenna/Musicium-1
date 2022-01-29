@@ -1,0 +1,7 @@
+{
+  "name": "Musicium Music Bot",
+  "description": "A good music discord bot developed by Tomato#6966.",
+  "repository": "https://github.com/greyhenna/Musicium-1e",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["discord", "music", "bot"]
+}
