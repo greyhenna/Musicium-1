@@ -1,5 +1,6 @@
 # Musicium
 
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 *An advanced Discord Music Bot with a Dashboard, using distube.js.org having an interactive button & menu system and many features!*
 **Supported Features:** *Spotify • YouTube • SoundCloud • Live Stream • Audio Filtering • DJ Roles • Autoplay • Autoresume • Dashboard • ...*
 
