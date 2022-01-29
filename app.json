@@ -2,6 +2,35 @@
   "name": "Musicium Music Bot",
   "description": "A good music discord bot developed by Tomato#6966.",
   "repository": "https://github.com/greyhenna/Musicium-1e",
-  "logo": "https://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["discord", "music", "bot"]
+  "logo": "https://milrato.dev/assets/img/team/team-1.jpg",
+  "keywords": ["discord", "music", "bot"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "prefix": {
+      "description": "The Discord Bot Prefix",
+      "required": "true"
+    },
+    "token": {
+      "description": "The Discord Bot Token (https://discord.com/developers/applications)",
+      "required": "true"
+    },
+    "youtubeCookie": {
+      "description": "The Youtube Cookie",
+      "required": "true"
+    },
+    "clientId": {
+      "description": "Spotify ClientID. This is used if you want to use Spotify features for your bot. (https://developer.spotify.com/dashboard/)",
+      "required": "true"
+    },
+    "clientSecret": {
+      "description": "Spotify ClientSecret. This is used if you want to use Spotify features for your bot. (https://developer.spotify.com/dashboard/)",
+      "required": "true"
+    }
+  }
+}
 }
