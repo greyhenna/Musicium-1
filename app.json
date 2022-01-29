@@ -11,15 +11,15 @@
     }
   ],
   "env": {
-    "prefix": {
+    "prefix1": {
       "description": "The Discord Bot Prefix",
       "required": "true"
     },
-    "token": {
+    "token1": {
       "description": "The Discord Bot Token (https://discord.com/developers/applications)",
       "required": "true"
     },
-    "youtubeCookie": {
+    "cookie1": {
       "description": "The Youtube Cookie",
       "required": "true"
     },
